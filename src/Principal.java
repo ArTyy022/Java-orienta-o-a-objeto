@@ -6,7 +6,7 @@ public class Principal {
         meuFilme.setNome("Exterminador");
         meuFilme.setAnoDeLancamento(2002);
         meuFilme.setDuracaoEmMinutos(190);
-
+        meuFilme.setIncluidoNoPlano(true);
 
 
         meuFilme.exibir();
