@@ -26,6 +26,10 @@ public class Principal {
         serie.setNome("Supernatural");
         serie.setAnoDeLancamento(2004);
         serie.setTemporadas(15);
+        serie.setEpisodiosPorTemporada(10);
+        serie.setMinutosPorEpisodio(50);
+        System.out.println("Duração da serie total: " + serie.getDuracaoEmMinutos());
+
     }
 
 }
